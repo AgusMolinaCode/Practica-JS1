@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Bangers', cursive;
+}
+
+.titulo_h1 {
+  margin-left: 15%;
+  margin-top: 7%;
+}
+
+p {
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 400px;
+  margin-top: 10px;
+  word-spacing: 5px;
+  font-size: 20px;
+  color: grey;
+}
+
+h2 {
+  margin-left: 15%;
+  margin-top: 15px;
+}
+
+span {
+  color: darkslategray;
+  font-size: 28px;
+}
+
+.color-select div {
+  background: #333;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.color-select {
+  display: flex;
+  margin-left: 15%;
+  gap: 10px;
+  align-items: center;
+}
+
+.color-select #red {
+  background-color: red;
+  border-style: dashed;
+}
+
+.color-select #black {
+  background-color: black;
+  border-style: dashed;
+}
+
+.color-select #white {
+  background-color: white;
+  border-style: dashed;
+}
+
+.stock1 {
+  background-color: tomato;
+  border-style: dashed;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: 15px;
+  display: flex;
+  margin-left: 15%;
+}
+
+.img-nav {
+  width: 120px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 25px;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: 28px;
+  justify-items: center;
+  color: azure;
+  background-color: black;
+  margin: 6px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+a {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  transition-property: color;
+  transition-duration: 0.3s;
+}
+
+a:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #bfd120;
+  transform: scaleX(0);
+  transform-origin: 100% 50%;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+a:hover, a:focus, a:active {
+  color: black;
+}
+
+a:hover:before, a:focus:before, a:active:before {
+  transform: scaleX(1);
+  border-radius: 10px;
+}
+
+.imagen {
+  background-image: url(/IMAGENES/X004-Y015.jpg);
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  margin-left: 36%;
+  margin-top: -38%;
+}
+
+h3 {
+  text-align: center;
+  padding: 8px;
+  margin-top: 50px;
+}
+
+footer {
+  background-color: beige;
+}
+/*# sourceMappingURL=main.css.map */
