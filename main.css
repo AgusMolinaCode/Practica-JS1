@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Bangers', cursive;
+  font-family: "Bangers", cursive;
 }
 
 .titulo_h1 {
@@ -136,8 +136,9 @@ a:hover:before, a:focus:before, a:active:before {
   background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
-  margin-left: 36%;
-  margin-top: -38%;
+  margin-left: 37%;
+  margin-top: -40%;
+  background-size: 40% 80%;
 }
 
 h3 {
@@ -148,5 +149,4 @@ h3 {
 
 footer {
   background-color: beige;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
