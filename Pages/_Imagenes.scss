@@ -1,9 +1,33 @@
+// .imagen{
+//     background-image: url(IMAGENES/X004-Y015.jpg);
+//     background-repeat: no-repeat;
+//     width: 100vw;
+//     height: 100vh;
+//     margin-left: 37%;
+//     margin-top: -40%;
+//     background-size: 40% 80%;
+// }
+
 .imagen{
-    background-image: url(IMAGENES/X004-Y015.jpg);
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
-    margin-left: 37%;
-    margin-top: -40%;
-    background-size: 40% 80%;
+    display: flex;
+    justify-content: center;
 }
+
+@media (max-width: 1266px){
+    #imagen{
+        width: 700px;
+    }
+}
+
+@media (max-width: 998px){
+    #imagen{
+        width: 380px;
+    }
+}
+
+@media (max-width: 700px){
+    #imagen{
+        width: 300px;
+    }
+}
+
