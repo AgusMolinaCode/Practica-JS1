@@ -14,7 +14,6 @@
 p{
     margin-left: 15%;
     margin-right: 15%;
-   
     margin-top: 10px;
     word-spacing: 5px;
     font-size: 20px;
@@ -72,5 +71,34 @@ span{
     margin-top: 15px;
     display: flex;
     margin-left: 15%;
+    
+}
+
+@media (max-width: 700px){
+    .titulo_h1{
+        font-size: 25px;
+    }
+
+    .stock1{
+    width: 35px;
+    height: 35px; 
+    }
+
+    .color-select div{
+        width: 35px;
+        height: 35px;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+
+    span{
+        font-size: 22px;
+    }
+
+    p{
+        font-size: 15px;
+    }
     
 }

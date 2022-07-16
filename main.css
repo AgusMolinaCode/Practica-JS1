@@ -79,6 +79,28 @@ span {
   margin-left: 15%;
 }
 
+@media (max-width: 700px) {
+  .titulo_h1 {
+    font-size: 25px;
+  }
+  .stock1 {
+    width: 35px;
+    height: 35px;
+  }
+  .color-select div {
+    width: 35px;
+    height: 35px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  span {
+    font-size: 22px;
+  }
+  p {
+    font-size: 15px;
+  }
+}
 .img-nav {
   width: 120px;
 }
@@ -159,12 +181,12 @@ a:hover:before, a:focus:before, a:active:before {
 }
 @media (max-width: 998px) {
   #imagen {
-    width: 380px;
+    width: 450px;
   }
 }
 @media (max-width: 700px) {
   #imagen {
-    width: 300px;
+    width: 310px;
   }
 }
 h3 {
